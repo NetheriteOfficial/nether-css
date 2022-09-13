@@ -1,0 +1,7 @@
+if document.isReady == true{
+  private html.element element = html.getElementByName("body");
+  
+  element.background = hex("#000000");
+  
+  return element
+}
